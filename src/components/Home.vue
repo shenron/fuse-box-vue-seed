@@ -9,6 +9,8 @@
           <img class="logo" src="/assets/fusebox-logo.png" />
           <img class="logo" src="/assets/heart.png" />
           <img class="logo" src="/assets/vue-logo.png" />
+          <img class="logo" src="/assets/bootstrap-logo.png" />
+          <img class="logo" src="/assets/font-awesome-logo.png" />
         </div>
       </v-card>
     </v-flex>
