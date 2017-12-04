@@ -6,6 +6,7 @@
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <v-btn flat @click.stop="goTo('/config')">Config Guide</v-btn>
+      <v-btn flat @click.stop="goTo('/test')">Test</v-btn>
       <v-btn flat @click.stop="openDocumentation()">FuseBox Docs</v-btn>
     </v-toolbar-items>
   </v-toolbar>

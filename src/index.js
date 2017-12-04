@@ -1,3 +1,4 @@
+import * from 'bootstrap';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Vuetify from 'vuetify';
@@ -8,6 +9,7 @@ import 'vuetify/dist/vuetify.min.css';
 import App from './components/App.vue';
 import Home from './components/Home.vue';
 import Config from './components/Config.vue';
+import Test from './components/test/Test.vue';
 
 Vue.use(VueRouter);
 Vue.use(Vuetify);
@@ -15,7 +17,8 @@ Vue.use(Vuetify);
 const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
-    { path: '/config', component: Config }
+    { path: '/config', component: Config },
+    { path: '/test', component: Test }
   ]
 });
 

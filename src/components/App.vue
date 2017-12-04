@@ -8,6 +8,15 @@
     </main>
   </v-app>
 </template>
+<style lang="scss">
+  // FontAwesome
+  $fa-font-path: '../../node_modules/font-awesome/fonts/';
+  @import 'font-awesome';
+
+  // Bootstrap
+  $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+  @import 'bootstrap';
+</style>
 <script>
   import Navigation from './Navigation.vue';
 
