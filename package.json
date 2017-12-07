@@ -26,10 +26,10 @@
     "bootstrap-sass": "^3",
     "font-awesome": "^4",
     "jquery": "^3",
-    "prismjs": "1.8.4",
+    "prismjs": "^1.9.0",
     "vue": "2.5.9",
     "vue-router": "3.0.1",
-    "vuetify": "0.17.3"
+    "vuetify": "^0.17.4"
   },
   "devDependencies": {
     "fuse-box": "^2.4.0",
